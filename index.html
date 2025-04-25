@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Periodic Table Elements</title>
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function goToCarbonPage() {
+      window.location.href = "Carbon.html";
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Exploring Elements of the Periodic Table</h1>
+    <p>By Ayussh Dussani</p>
+    <div class="header-container">
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="Carbon.html">Carbon</a>
+            <a href="magnesium.html">Magnesium</a>
+            <a href="nitrogen.html">Nitrogen</a>
+            <a href="Sources.html">Sources</a>
+        </nav>
+    </div>
+</header>
+  </main>
+  <main>
+    <div class="button-container">
+      <button onclick="goToCarbonPage()">
+        <img src="Carbon icon.jpeg" alt="Carbon Icon" style="width: 350px; height: 350px;" />
+        <h2>Carbon</h2>
+      </button>
+      <button onclick="goToMagnesiumPage()">
+        <img src="Magnesium icon.jpeg" alt="Magnesium Icon" style="width: 350px; height: 350px;" />
+        <h2>Magnesium</h2>
+      </button>
+      <button onclick="goToNitrogenPage()">
+        <img src="Nitrogen icon.jpeg" alt="Nitrogen Icon" style="width: 350px; height: 350px;" />
+        <h2>Nitrogen</h2>
+      </button>
+    </div>
+  </main>
+  
+  <script>
+    function goToCarbonPage() {
+      window.location.href = "carbon.html";
+    }
+  
+    function goToNitrogenPage() {
+      window.location.href = "nitrogen.html";
+    }
+  </script>
+<script>
+  function goToMagnesiumPage() {
+    window.location.href = "magnesium.html";
+  }
+</script>
+  <footer>
+    <p>&copy; 2025 Ayussh Dussani. All rights reserved.</p>
+</footer>
+</body>
+</html>
